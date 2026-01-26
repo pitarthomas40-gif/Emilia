@@ -19,7 +19,7 @@ class Config(object):
     UPDATE_CHANNEL = "SpiralUpdates" # Update Channel Username
     START_PIC = "https://pic-bstarstatic.akamaized.net/ugc/9e98b6c8872450f3e8b19e0d0aca02deff02981f.jpg@1200w_630h_1e_1c_1f.webp" # Start Image
     DEV_USERS = [7028236763] # Dev Users
-    TOKEN = "57375" # Bot Token from @BotFather
+    TOKEN = "8392569167:AAEC2BmJhoax7eYi-C1hNcTvzPM9z9YMtGY" # Bot Token from @BotFather
     CLONE_LIMIT = 50 # Number of clones your bot can make
 
     REDIS_URL = os.getenv("REDIS_URL", "redis://localhost:6379")
