@@ -25,7 +25,7 @@ class Config(object):
     REDIS_URL = None
 REDIS_PASSWORD = None
 
-    EVENT_LOGS = --1003877180460 # Event Logs Chat ID
+    EVENT_LOGS = -1003877180460 # Event Logs Chat ID
     OWNER_ID = 7028236763 # Owner ID
  
     TEMP_DOWNLOAD_DIRECTORY = "./" # Temporary Download Directory
