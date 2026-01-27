@@ -23,8 +23,8 @@ class Config(object):
     TOKEN = "8392569167:AAEC2BmJhoax7eYi-C1hNcTvzPM9z9YMtGY"
     CLONE_LIMIT = 50
 
-    REDIS_URL = None
-    REDIS_PASSWORD = None   # ✅ ab sahi jagah
+    REDIS_URL = os.getenv("REDIS_URL", "redis://localhost:6379")
+    REDIS_PASSWORD = os.getenv("REDIS_PASSWORD", None)
 
     EVENT_LOGS = -1003877180460
     OWNER_ID = 7028236763
