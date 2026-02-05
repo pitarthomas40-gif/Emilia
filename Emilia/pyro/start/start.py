@@ -194,7 +194,7 @@ To modify the profile picture of your clone, send /setuserpic to @BotFather, cho
 
 help_text = """
 Nowadays, many people use foreign bots to manage their groups. But this can be risky as the bot owner can misuse your data.
-To solve this issue, we have introduced the clone feature. Without the need for any coding knowledge, database, hosting, or anything else, this feature allows you to clone @Elf_Robot to your own bots and manage your group without any privacy concerns.
+To solve this issue, we have introduced the clone feature. Without the need for any coding knowledge, database, hosting, or anything else, this feature allows you to clone @lolspot to your own bots and manage your group without any privacy concerns.
 
 **Clone Commands:**
 
@@ -214,6 +214,6 @@ Example:
 
 **Note:** The clones use the same database as the main bot. Please do not use this feature for illegal purposes. We will not be responsible for any misuse.
 
-PS: If you need any help, feel free to ask in our support group [here.](https://t.me/APNA_WORLD1) I have created this feature with my heart, and it took a lot of time and effort. So, please don't hesitate to /donate to keep this feature alive.
+PS: If you need any help, feel free to ask in our support group [here.](https://t.me/APNA_WORLD1) I have created this feature with my heart, and it took a lot of time and effort. So, please don't hesitate to keep support for this feature alive.
 In future, we might close this feature and make it premium. So, use it now and enjoy :3
 """
