@@ -9,7 +9,7 @@ def get_user_list(config, key):
 
 class Config(object):
     API_HASH = ""
-    API_ID = 
+    API_ID =
 
     BOT_ID = 521
     BOT_USERNAME = "@Miss_JasminBot"
