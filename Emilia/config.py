@@ -16,8 +16,8 @@ class Config(object):
 
     MONGO_DB_URL = "mongodb+srv://rj5706603:O95nvJYxapyDHfkw@cluster0.fzmckei.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 
-    SUPPORT_CHAT = "https://t.me/APNA_WORLD1"
-    UPDATE_CHANNEL = "https://t.me/lolspot"
+    SUPPORT_CHAT = "APNA_WORLD1"
+    UPDATE_CHANNEL = "lolspot"
     START_PIC = "https://pic-bstarstatic.akamaized.net/ugc/9e98b6c8872450f3e8b19e0d0aca02deff02981f.jpg@1200w_630h_1e_1c_1f.webp"
     DEV_USERS = [7028236763]
     TOKEN = "8317830358:AAH_fcUdH1g8DpgwaRh3IoKpjiVEMUnc3Cw"
