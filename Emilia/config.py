@@ -8,7 +8,7 @@ def get_user_list(config, key):
 
 
 class Config(object):
-    API_HASH = ""
+    API_HASH = "79b81186aefef9ca9216c646152ffe45"
     API_ID =32772113
 
     BOT_ID = 521
@@ -20,7 +20,7 @@ class Config(object):
     UPDATE_CHANNEL = "https://t.me/lolspot"
     START_PIC = "https://pic-bstarstatic.akamaized.net/ugc/9e98b6c8872450f3e8b19e0d0aca02deff02981f.jpg@1200w_630h_1e_1c_1f.webp"
     DEV_USERS = [7028236763]
-    TOKEN = ""
+    TOKEN = "8317830358:AAH_fcUdH1g8DpgwaRh3IoKpjiVEMUnc3Cw"
     CLONE_LIMIT = 50
 
     REDIS_URL = os.getenv("REDIS_URL", "https://fine-flounder-25319.upstash.io")
