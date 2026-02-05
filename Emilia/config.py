@@ -8,19 +8,19 @@ def get_user_list(config, key):
 
 
 class Config(object):
-    API_HASH = "79b81186aefef9ca9216c646152ffe45"
-    API_ID = 32772113
+    API_HASH = ""
+    API_ID = 
 
     BOT_ID = 521
-    BOT_USERNAME = "Gcmanager18_bot"
+    BOT_USERNAME = "@Miss_JasminBot"
 
     MONGO_DB_URL = "mongodb+srv://rj5706603:O95nvJYxapyDHfkw@cluster0.fzmckei.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 
-    SUPPORT_CHAT = "rosegroupsohman"
-    UPDATE_CHANNEL = "rosebotsohman"
+    SUPPORT_CHAT = "https://t.me/APNA_WORLD1"
+    UPDATE_CHANNEL = "https://t.me/lolspot"
     START_PIC = "https://pic-bstarstatic.akamaized.net/ugc/9e98b6c8872450f3e8b19e0d0aca02deff02981f.jpg@1200w_630h_1e_1c_1f.webp"
     DEV_USERS = [7028236763]
-    TOKEN = "8392569167:AAEC2BmJhoax7eYi-C1hNcTvzPM9z9YMtGY"
+    TOKEN = ""
     CLONE_LIMIT = 50
 
     REDIS_URL = os.getenv("REDIS_URL", "https://fine-flounder-25319.upstash.io")
@@ -30,7 +30,7 @@ class Config(object):
     OWNER_ID = 7028236763
 
     TEMP_DOWNLOAD_DIRECTORY = "./"
-    BOT_NAME = "Sohman bot"
+    BOT_NAME = "Jasmin"
     WALL_API = "6950f53"
     GROQ_API_KEY = "gsk_mm"
 
