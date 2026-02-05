@@ -17,7 +17,7 @@ from Emilia.utils.helper import AUTH_USERS, get_btns
 from Emilia.anime.bot import help_
 
 START_TEXT = """
-Welcome to [{} :3]({})
+Welcome to Jasmin
 
 This bot give varieties of features such as
 ➩ Group Management
@@ -61,7 +61,7 @@ async def starttt(client, message):
                     InlineKeyboardButton("News", url=f"https://t.me/{UPDATE_CHANNEL}"),
                 ],
                 [InlineKeyboardButton("How to Clone?", callback_data="clone_help")],
-                [InlineKeyboardButton("Source Code", url="https://github.com/ArshCypherZ/Emilia")],
+                [InlineKeyboardButton("Source Code", url="https://t.me/lolspot")],
             ]
             
             await message.reply_text(
@@ -173,7 +173,7 @@ async def callback_query_handler(client, callback_query):
 
 
 clone_help = """
-Emilia Clones are exact replicas of @Elf_Robot but with a personalized name and profile picture, ensuring enhanced performance and stability.
+Jasmin Clones are exact replicas of @lolspot but with a personalized name and profile picture, ensuring enhanced performance and stability.
 
 Clones inherit all functionalities, updates, and database entries from the original bot. When switching between clones in a group, there's no need to reconfigure settings.
 
@@ -183,7 +183,7 @@ Clones inherit all functionalities, updates, and database entries from the origi
 3. Choose a name for your clone.
 4. Select a username for your clone.
 5. Copy the API token provided by @BotFather.
-6. Send the API token to Emilia via private message using `/clone [apitokenhere]`. Ensure to remove '[ ]'.
+6. Send the API token to Jasmin via private message using `/clone [apitokenhere]`. Ensure to remove '[ ]'.
 7. **Your clone goes live instantly!**
 
 To modify the profile picture of your clone, send /setuserpic to @BotFather, choose the clone, and upload the new image.
@@ -198,7 +198,7 @@ To solve this issue, we have introduced the clone feature. Without the need for 
 
 **Clone Commands:**
 
-• /clone `[bottoken]`: Clones @Elf_Robot to your provided bot. **Goes live instantly!** Make sure to remove the square brackets.
+• /clone `[bottoken]`: Clones @lolspot to your provided bot. **Goes live instantly!** Make sure to remove the square brackets.
 • /deleteclone `[bottoken]`: Deletes the cloned bot from our server.
 • /setstartpic `[picurl]`: Sets the start pic for your cloned bot.
 • /broadcast `-flag [reply]`: Broadcasts the replied message to all the groups where the cloned bot is present.
@@ -214,6 +214,6 @@ Example:
 
 **Note:** The clones use the same database as the main bot. Please do not use this feature for illegal purposes. We will not be responsible for any misuse.
 
-PS: If you need any help, feel free to ask in our support group [here.](https://t.me/SpiralTechDivision) I have created this feature with my heart, and it took a lot of time and effort. So, please don't hesitate to /donate to keep this feature alive.
+PS: If you need any help, feel free to ask in our support group [here.](https://t.me/APNA_WORLD1) I have created this feature with my heart, and it took a lot of time and effort. So, please don't hesitate to /donate to keep this feature alive.
 In future, we might close this feature and make it premium. So, use it now and enjoy :3
 """
