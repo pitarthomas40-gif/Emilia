@@ -357,6 +357,9 @@ async def sendResponse(event, response: str):
                 os.remove(temp_path)
     else:
         await event.reply(response)
+        
+       async def shutdown_chatbot():
+    print("Chatbot shutdown successfully")
 
 
 PERSONA_DETAILS = """
