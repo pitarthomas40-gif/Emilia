@@ -19,6 +19,20 @@ from Emilia.tele.clone import clone_start_up, shutdown_all_clones
 from Emilia.tele.backup import send as send_backup
 from Emilia.helper.http import close_http_clients
 from Emilia.mongo.users_mongo import WRITE_BUFFER
+from flask import Flask
+import threading
+
+app = Flask(__name__)
+
+@app.route("/")
+def home():
+    return "Emilia Bot is alive"
+
+def run_web():
+    port = int(os.environ.get("PORT", 10000))
+    app.run(host="0.0.0.0", port=port)
+
+threading.Thread(target=run_web, daemon=True).start()
 
 
 HELP_MSG = "Click the button below to get help menu in your pm ~"
