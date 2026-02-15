@@ -129,9 +129,13 @@ async def rename(event):
 
 async def botfban(chat_id, user_id):
     try:
-        p = await meow(GetParticipantRequest(chat_id, user_id))
-    except UserNotParticipantError:
-        return False
+        from telethon.errors import UserNotParticipantError
+from telethon.tl.functions.channels import GetParticipantRequest
+
+try:
+    p = await meow(GetParticipantRequest(chat_id, user_id))
+except (ValueError, UserNotParticipantError):
+    return False
     if isinstance(p.participant, types.ChannelParticipant):
         return False
     elif isinstance(p.participant, types.ChannelParticipantAdmin):
@@ -1457,3 +1461,4 @@ async def fban_welcome(e):
             pass
     else:
         return
+
